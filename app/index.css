@@ -1,3 +1,28 @@
 body {
-  background: green;
+  font-family: Roboto, Helvetica Neue, sans-serif;
+}
+
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.language__container {
+  display: flex;
+  justify-content: center;
+}
+
+.language {
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }
